@@ -45,3 +45,10 @@ Revoir les commits
 Envoyer les fichiers vers le serveur git :
 
 	git push
+
+Recevoir les fichiers :
+
+	git pull (récupère et intègre les changements)
+
+	git fetch (récupère simplement les changements)
+
