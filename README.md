@@ -6,3 +6,9 @@ Récupérer une copie en local
 
 Voir dans quel état on se trouve :
 	git status
+
+Enregistrer les modifications :
+	1: Ajouter les changements à enregistrer dans l'index
+		git add file1 [file2] ...
+	2: Faire le commit
+		git commit
