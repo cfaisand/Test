@@ -22,3 +22,6 @@ Revoir les commits
 	git log -p (affiche les modifications pour chacun des commits)
 	git log --stat --summary (version plus courte du précédent)
 	git log --oneline (une ligne par commit)
+
+Envoyer les fichiers vers le serveur git :
+	git push
