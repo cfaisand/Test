@@ -11,4 +11,6 @@ Enregistrer les modifications :
 	1: Ajouter les changements à enregistrer dans l'index
 		git add file1 [file2] ...
 	2: Faire le commit
-		git commit
+		git commit -m message
+Ajouter automatiquement les fichiers déja sur git :
+	git commit -a -m message
