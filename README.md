@@ -12,5 +12,13 @@ Enregistrer les modifications :
 		git add file1 [file2] ...
 	2: Faire le commit
 		git commit -m message
+
 Ajouter automatiquement les fichiers déja sur git :
 	git commit -a -m message
+
+Revoir les commits
+	gitk (interface graphique)
+	git log (affiche les commits)
+	git log -p (affiche les modifications pour chacun des commits)
+	git log --stat --summary (version plus courte du précédent)
+	git log --oneline (une ligne par commit)
