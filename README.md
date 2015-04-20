@@ -52,3 +52,19 @@ Recevoir les fichiers :
 
 	git fetch (récupère simplement les changements)
 
+Ajouts, suppression de fichiers :
+
+	ajout : 
+
+		git add fichiers
+	
+	suppression :
+
+		git rm fichiers
+
+	renommer-déplacer :
+	
+		git mv source destination (revient à supprimer et ajouter -> voir git log --summary [-M])
+
+
+
