@@ -66,5 +66,44 @@ Ajouts, suppression de fichiers :
 	
 		git mv source destination (revient à supprimer et ajouter -> voir git log --summary [-M])
 
+Mettre du travail de côté :
+
+	git stash (met les modifs de côté)
+
+	git stash pop [id] (dépile et applique les dernières modifs sauvegardées par git stash)
+
+	git stash drop [id]
+
+	git stash show [id]
+
+	git stash list
+
+	(voir man git stash)
+
+Fichier .gitignore :
+
+	créer le fichier .gitignore
+
+	indiquer à l'intérieur les fichiers ou extensions de fichiers qu'on ne veut pas enregistrer sur git (ex : Essai.java, *.o, etc)
+
+	ne pas oublier d'enregistrer .gitignore sur git
+
+Les branches :
+
+	Création de branche :
+
+		git branch name
+
+	Liste des branches :
+
+		git branch
+
+	Changer de branche :
+		
+		git checkout name
+
+	Fusionner 1 branche avec master :
+		
+		git merge name (si il y a conflit, le merge s'arrête et les points problématiques sont affichés -> voir git diff)
 
 
