@@ -106,4 +106,40 @@ Les branches :
 		
 		git merge name (si il y a conflit, le merge s'arrête et les points problématiques sont affichés -> voir git diff)
 
+Etiqueter une version :
+
+	git tag nom
+	
+	Ex : git tag v1.0
+
+	Pour voir la liste des tags :
+		
+		git tag
+
+Identifier l'origine des changements :
+
+	git blame Fichier
+
+Identifier le commit à l'origine d'un problème :
+
+	git bisect
+	
+	git bisect start
+
+	git bisect bad
+
+	git bisect good Version
+
+Choisir ce qu'on ajoute pour un commit :
+
+	git add -p Fichier
+
+Annuler un commit :
+
+	git revert identifiant
+
+Compléter le dernier commit (avant de partager avec git push) :
+
+	git commit --amend
+
 
