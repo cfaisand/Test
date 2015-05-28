@@ -160,4 +160,3 @@ Annuler des changements / les derniers commits :
 
 		Ex : git reset --hard : réinitialise le répertoire de travail au dernier commit
 
-
