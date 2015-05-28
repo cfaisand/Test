@@ -160,3 +160,26 @@ Annuler des changements / les derniers commits :
 
 		Ex : git reset --hard : réinitialise le répertoire de travail au dernier commit
 
+Avant de faire un push, on aimerait revenir sur les derniers commits (pour les compléter, en supprimer, changer l'ordre, ...)
+
+	git rebase -i origin/master (i pour interactive)
+	
+		Un éditeur est lancé avec la liste des commits qui vont être appliqués :
+
+			pick [id commit] permière ligne du message
+
+	Si problème, le rebase s'arrête pour qu'on puisse le corriger. Il faut ensuite faire :
+		
+		git rebase --continue
+
+	On peut aussi faire :
+
+		git rebase --skip
+	
+	pour ignorer le commit qui pose problème ou
+
+		git rebase --abort
+
+	pour annuler l'opération rebase
+
+
