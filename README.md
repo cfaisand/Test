@@ -182,4 +182,6 @@ Avant de faire un push, on aimerait revenir sur les derniers commits (pour les c
 
 	pour annuler l'opération rebase
 
+	git pull --rebase
+
 
