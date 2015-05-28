@@ -184,4 +184,22 @@ Avant de faire un push, on aimerait revenir sur les derniers commits (pour les c
 
 	git pull --rebase
 
+Créer un dépôt git local :
+
+	git init
+
+Travailler à plusieurs :
+
+	man gittutorial
+
+	"USING GIT FOR COLLABORATION"
+
+	Attention aux droits d'accès :
+		
+		fichiers : lecture
+
+		répertoires : lexcture + exécution
+
+		répertoires parents : exécution
+
 
