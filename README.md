@@ -142,4 +142,16 @@ Compléter le dernier commit (avant de partager avec git push) :
 
 	git commit --amend
 
+Annuler des changements / les derniers commits :
 
+	! : à éviter si les commits ont déjà été partagés
+
+	git reset [mode] [id de commit]
+
+	Modes :
+
+		--soft : réinitialise le dépôt seulement
+
+		--mixed : réinitialise le dépôt et l'index (valeur par défaut)
+
+		--hard : réinitialise tout, répertoire de travail compris
